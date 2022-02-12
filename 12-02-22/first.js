@@ -12,7 +12,7 @@ let a = 4;
 let b = 2;
 console.log(() => a + b + 100);
 
-let array=[1, 2, 5, 3, 9, 4];
+let array=[20, 10, 40, 30 , 50, 90, 65, 3];
 console.log(array.sort());
 
 console.log(Math.pow(2, 53));

@@ -1,0 +1,23 @@
+The g at the end means global, ie. that you want to search for all occurrences. Without it, you'll just get the first match.
+
+\d, as you know, means a single digit. You can add quantifiers to specify whether you want to match all the following, or a certain amount of digits afterwards.
+
+\d means a single digit
+
+\d+ means all sequential digits
+
+So let's say we have a string like this:
+
+123 456
+7890123
+/\d/g will match [1,2,3,4,5,6,7,8,9,0,1,2,3]
+
+/\d/ will match 1
+
+/\d+/ will match 123
+
+/\d+/g will match [123,456,7890123]
+
+You could also use /\d{1,3}/g to say you want to match all occurrences where there are from 1 to 3 digits in a sequence.
+
+Another common quantifier is the star symbol, which means 0 or more. For example /1\d*/g would match all sequences of digits that start with 1, and have 0 or more digits after it.

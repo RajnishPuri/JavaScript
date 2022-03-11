@@ -17,3 +17,18 @@ let [againnewarray1, , againnewarray2]=againnewarray;
 
 console.log("First array is",againnewarray1);
 console.log("Second array is",againnewarray2);
+
+//copy third and forth element of the array and paste in new array
+const Newarray=["value1", "value2", "value3", "value4"];
+let MyNewArray=Newarray.slice(2);
+
+console.log(MyNewArray);
+
+//alternative of copy third and forth element of the array and paste in new array
+const Array=["value1", "value2", "value3", "value4"];
+let [ARRAY1, ARRAY2, ...NEWARRAY]=Array;
+console.log("ARRAY1 is :", ARRAY1);
+console.log("ARRAY2 is :", ARRAY2);
+console.log("REMAINING ARRAY is :", NEWARRAY);
+
+

@@ -26,7 +26,3 @@ console.log(person);
 const key="email";
 person[key]="rajnishpuri15@gmail.com";
 console.log(person);
-
-for(let key5 in person){
-    console.log(`${[key5]} : ${person[key5]}`);
-}

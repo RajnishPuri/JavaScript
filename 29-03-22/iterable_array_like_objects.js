@@ -40,7 +40,7 @@ console.log(Username);
 // Array Like Object
 
 // those who can access by its index and those who have length property
-
+//
 const NAME = "Rajnish";
 console.log(NAME.length);
 console.log(NAME[3]);

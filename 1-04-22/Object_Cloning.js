@@ -9,7 +9,7 @@ const obj1 = {
 
 
 // if you simply do this:
-const obj2 = obj1;
+const obj2 = obj1; 
 const obj3 = {...obj1}    // slice Method
 const obj4 = Object.assign({}, obj1);  // Assign Method
 

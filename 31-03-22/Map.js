@@ -81,3 +81,5 @@ console.log(Moreinfo);
 console.log(person2.id);
 console.log(Moreinfo.get(person1).gender);
 console.log(Moreinfo.get(person2).gender);
+
+console.log(""!==null);
